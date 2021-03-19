@@ -14,7 +14,7 @@ try:
         c.NotebookApp.password = IPython.lib.passwd(passwd)
     else:
         c.NotebookApp.token = ''
-        c.NotebookApp.password = ''
+        c.NotebookApp.password = 'sonic1'
 
     ### PostresContentsManager ###
     database_url = os.getenv('DATABASE_URL', None)

@@ -1,13 +1,13 @@
 name: heroku-jupyter
 dependencies:
   # bind notebook version (compatibility to pgcontents)
-  - notebook
+  - notebook = 4
   - ipywidgets
   - requests
   # bind ipython version (compatibility to pgcontents)
-  - ipython
+  - ipython = 5
   # bind tornado version (websocket problems)
-  - tornado
+  - tornado = 4.5
   # get dependencies for pgcontents
   - certifi
   - click

@@ -17,7 +17,6 @@ dependencies:
   - six
   - sqlalchemy
   - nose
-  - ipysheet
   - pip
   - pip:
     - ipysheet

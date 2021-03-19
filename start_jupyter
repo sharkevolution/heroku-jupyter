@@ -6,6 +6,6 @@ jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 
 jupyter notebook \
-	--no-browser --no-mathjax --ip=* --port $PORT \
+	--no-browser --no-mathjax --ip=0.0.0.0 --port=5555 \
 	$JUPYTER_NOTEBOOK_ARGS \
-	notebooks/test1.ipynb
+	notebooks
